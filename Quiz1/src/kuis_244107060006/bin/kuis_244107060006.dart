@@ -15,28 +15,30 @@ void main() {
 
   double nilaiUnikNIM = double.parse(nim.substring(nim.length - 3));
 
-  List<double> hargaBarang = [
-    150000.0,
-    75500.0,
-    13300.0,
-    4500.0,
-    25000.0
-  ];
+    List<double> hargaBarang = [
+      150000.0,
+      75500.0,
+      13300.0,
+      4500.0,
+      25000.0
+    ];
 
-  hargaBarang.add(nilaiUnikNIM);
+    hargaBarang.add(nilaiUnikNIM);
 
-  String? pesanDiskon;
-  double totalAwal = hitungTotal(hargaBarang);
-  double diskon = 0;
+    String? pesanDiskon;
+    double totalAwal = hitungTotal(hargaBarang);
+    double diskon = 0;
 
   if (totalAwal > 200000) {
     diskon = totalAwal * 0.10;
     pesanDiskon = "Congratulations!! Anda mendapatkan diskon sebesar 10%";
   } 
+
   else if (totalAwal >= 100000 && totalAwal <= 200000) {
     diskon = totalAwal * 0.05;
     pesanDiskon = "Congratulations!! Anda mendapatkan diskon sebesar 5%";
   } 
+
   else {
     diskon = 0;
     pesanDiskon = "Tidak ada diskon";
@@ -53,4 +55,5 @@ void main() {
   print("Diskon: ${diskon.toStringAsFixed(2)}");
   print("Keterangan: ${pesanDiskon!}");
   print("Total Akhir: ${totalAkhir.toStringAsFixed(2)}");
-}
+
+  }
