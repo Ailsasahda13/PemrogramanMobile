@@ -30,8 +30,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      //Kode modify 
-      home: const MyHomePage(title: 'Flutter Demo Ailsa Sahda Garizah'),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -56,17 +55,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-// Kode Modify
-  void _decrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter--;
-    });
-  }
 
   void _incrementCounter() {
     setState(() {
@@ -76,17 +64,6 @@ class _MyHomePageState extends State<MyHomePage> {
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
       _counter++;
-    });
-  }
-
-  void _resetCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter = 0;
     });
   }
 
@@ -127,9 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            //Tugas Menambahkan NIM
-            const Text('Ailsa Sahda Garizah'),
-            const Text('NIM: 244107060006'),
+            const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -137,29 +112,11 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      //Modify button
-      floatingActionButton: Row(
-  mainAxisAlignment: MainAxisAlignment.end,
-  children: [
-    FloatingActionButton(
-      onPressed: _resetCounter,
-      tooltip: 'Reset',
-      child: const Icon(Icons.refresh),
-    ),
-    const SizedBox(width: 10),
-    FloatingActionButton(
-      onPressed: _decrementCounter,
-      tooltip: 'Decrement',
-      child: const Icon(Icons.remove),
-    ),
-    const SizedBox(width: 10),
-    FloatingActionButton(
-      onPressed: _incrementCounter,
-      tooltip: 'Increment',
-      child: const Icon(Icons.add),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
       ),
-    ],
-  ),
     );
   }
 }
