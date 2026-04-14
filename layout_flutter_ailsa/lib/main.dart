@@ -59,14 +59,14 @@ class MyApp extends StatelessWidget {
         'Carilah teks di internet yang sesuai '
         'dengan foto atau tempat wisata yang ingin '
         'Anda tampilkan. '
-        'Tambahkan nama dan NIM Anda sebagai '
+        'nama: Ailsa Sahda Garizah dan NIM: 244107060006  '
         'identitas hasil pekerjaan Anda. '
         'Selamat mengerjakan 🙂.',
         softWrap: true,
       ),
     );
 
-  // Langkah 3: tambah button section
+  // Langkah 2: tambah variabel text section ke body
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
@@ -75,6 +75,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection,
             buttonSection,
+            textSection,
           ],
         ),
       ),
