@@ -71,8 +71,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter layout demo',
       home: Scaffold(
   
-        // tambah gambar ke body
-        body: Column(
+        // langkah 3: ubah menjadi ListView
+          body: ListView(
           children: [
             Image.asset(
               'images/fuji.jpg',
