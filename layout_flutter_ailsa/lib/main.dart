@@ -8,17 +8,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    // Tambahan dari langkah 4
     Widget titleSection = Container(
       padding: const EdgeInsets.all(32),
       child: Row(
         children: [
           Expanded(
-            /* soal 1 */
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                /* soal 2 */
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
@@ -31,35 +28,46 @@ class MyApp extends StatelessWidget {
                 Text(
                   'Batu, Malang, Indonesia',
                   style: TextStyle(
-                    color: Colors.grey[500],
+                    color: Colors.grey,
                   ),
                 ),
               ],
             ),
           ),
-          /* soal 3 */
-          Icon(
-            Icons.star,
-            color: Colors.red,
-          ),
+          Icon(Icons.star, color: Colors.red),
           const Text('41'),
         ],
       ),
     );
 
+    // langkah 2: widget buttonSection
+    Color color = Theme.of(context).primaryColor;
+
+    Widget buttonSection = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        _buildButtonColumn(color, Icons.call, 'CALL'),
+        _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+        _buildButtonColumn(color, Icons.share, 'SHARE'),
+      ],
+    );
+
     return MaterialApp(
-      title: 'Flutter layout: Flutter layout demo',
+      title: 'Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-
-        body: titleSection,
+        body: Column(
+          children: [
+            titleSection,
+            buttonSection,
+          ],
+        ),
       ),
     );
   }
 
-  // Method build Button Column
   Column _buildButtonColumn(Color color, IconData icon, String label) {
     return Column(
       mainAxisSize: MainAxisSize.min,
