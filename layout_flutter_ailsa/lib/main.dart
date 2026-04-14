@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      title: 'Flutter layout: Ailsa Sahda Garizah, 244107060006',
+      title: 'Flutter layout: Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
