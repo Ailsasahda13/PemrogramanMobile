@@ -52,6 +52,20 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    // langkah 1: widget text section
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Carilah teks di internet yang sesuai '
+        'dengan foto atau tempat wisata yang ingin '
+        'Anda tampilkan. '
+        'Tambahkan nama dan NIM Anda sebagai '
+        'identitas hasil pekerjaan Anda. '
+        'Selamat mengerjakan 🙂.',
+        softWrap: true,
+      ),
+    );
+
   // Langkah 3: tambah button section
     return MaterialApp(
       title: 'Flutter layout demo',
