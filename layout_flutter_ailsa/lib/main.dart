@@ -52,12 +52,11 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+  // Langkah 3: tambah button section
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter layout demo'),
-        ),
+  
         body: Column(
           children: [
             titleSection,
