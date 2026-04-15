@@ -6,10 +6,10 @@
 ![New Project](images/newProject.png)
 
 2. Langkah ini bertujuan untuk membuat project Flutter baru sebagai dasar pengembangan aplikasi. Dengan membuat project baru, struktur folder dan konfigurasi awal aplikasi dapat dibuat secara otomatis sehingga memudahkan dalam pengembangan serta menjaga kerapian kode sesuai dengan kebutuhan praktikum.
-![Langkah 1 Praktikum 1](images/langkah1prak1.png)
+![Langkah 1 Praktikum 1](images/langkah1.png)
 
 3. Langkah ini bertujuan untuk mengubah file utama main.dart sebagai entry point aplikasi Flutter. Pada tahap ini dilakukan penyesuaian kode untuk menampilkan tampilan sesuai kebutuhan praktikum serta menambahkan identitas berupa nama dan NIM pada bagian title.
-![Langkah 2 Praktikum 1](images/langkah2prak1.png)
+![Langkah 2 Praktikum 1](images/langkah2_prak1.png)
 
 4. Langkah ini bertujuan untuk menampilkan judul tempat, lokasi, ikon rating, dan jumlah rating sehingga memberikan informasi utama kepada pengguna.
 ![Langkah 4 Praktikum 1](images/langkah4prak1.png)
