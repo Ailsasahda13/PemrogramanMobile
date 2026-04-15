@@ -60,7 +60,6 @@ flutter:
   assets:
   - images/sugar.png
   - images/salt.png
-  - images/hasil.mp4
 
   # To add assets to your application, add an assets section, like this:
   # assets:
