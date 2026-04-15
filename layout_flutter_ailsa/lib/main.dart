@@ -19,14 +19,14 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Gunung Fuji',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 Text(
-                  'Batu, Malang, Indonesia',
+                  'Shizuoka, Pulau Honshu, Jepang',
                   style: TextStyle(
                     color: Colors.grey,
                   ),
@@ -56,13 +56,17 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: const Text(
-        'Carilah teks di internet yang sesuai '
-        'dengan foto atau tempat wisata yang ingin '
-        'Anda tampilkan. '
-        'nama: Ailsa Sahda Garizah dan NIM: 244107060006  '
-        'identitas hasil pekerjaan Anda. '
-        'Selamat mengerjakan 🙂.',
+        'Gunung Fuji adalah gunung tertinggi di Jepang dengan ketinggian sekitar 3.776 meter. '
+        'Gunung ini terletak di Pulau Honshu, tepatnya di perbatasan Prefektur Shizuoka dan Yamanashi. '
+        'Gunung Fuji merupakan gunung berapi aktif yang terakhir meletus pada tahun 1707. '
+        'Gunung ini terkenal karena bentuknya yang simetris dan puncaknya yang sering tertutup salju, '
+        'sehingga menjadi ikon keindahan alam Jepang. '
+        'Pada tahun 2013, Gunung Fuji ditetapkan sebagai situs warisan dunia oleh UNESCO. '
+        'Hingga saat ini, Gunung Fuji menjadi salah satu destinasi wisata paling populer di Jepang.\n\n '
+        '-Ailsa Sahda Garizah, 244107060006-',
+        
         softWrap: true,
+        textAlign: TextAlign.justify, 
       ),
     );
 
@@ -70,6 +74,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Flutter layout demo'),
+        ),
   
         // langkah 3: ubah menjadi ListView
           body: ListView(
