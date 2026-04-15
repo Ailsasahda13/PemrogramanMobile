@@ -7,7 +7,9 @@
 ![Code item](./images/04.png)
 ![Code item](./images/05.png)
 ![Code item](./images/06.png)
-![Hasil](./images/hasil.mp4)
+![Hasil](./images/hasil1.png)
+![Hasil](./images/hasil2.png)
+![Hasil](./images/hasil3.png)
 
 
 
