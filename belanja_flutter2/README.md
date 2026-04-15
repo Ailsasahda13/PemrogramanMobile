@@ -7,7 +7,6 @@
 ![Code item](./images/04.png)
 ![Code item](./images/05.png)
 ![Code item](./images/06.png)
-![Hasil](./images/tampilanAwal.png)
 ![Hasil](./images/hasil.mp4)
 
 
