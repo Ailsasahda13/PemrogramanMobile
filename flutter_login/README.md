@@ -29,7 +29,7 @@ Proses ini memastikan aplikasi Flutter dapat terhubung dengan layanan Firebase.<
 Hasil Analysis<br>
 1. Pembuatan Firebase Project (Project Name)
     -> Langkah pertama dalam integrasi Firebase adalah membuat project baru pada Firebase Console. Project ini berfungsi sebagai wadah utama untuk semua layanan Firebase yang akan digunakan, seperti Authentication dan database.
-    ![Project Name](images/project_neme.png)
+    ![ProjectName](images/project_neme.png)
 
 2. Mengaktifkan Email/Password pada Firebase Authentication<br>
    -> Langkah selanjutnya integrasi Firebase Authentication, langkah pertama yang dilakukan adalah mengaktifkan metode login Email/Password di Firebase Console.<br>
@@ -51,7 +51,7 @@ Hasil Analysis<br>
     - Malang<br>
     ![weather](images/malang.png)
     - Kediri<br>
-    ![Login](images/kediri.png)
+    ![weather](images/kediri.png)
 
 kesimpulan<br>
 Secara keseluruhan, praktikum ini berhasil menunjukkan bahwa Flutter dapat digunakan untuk membangun aplikasi mobile yang dinamis, terhubung dengan layanan backend (Firebase), serta terintegrasi dengan API eksternal secara efektif.
