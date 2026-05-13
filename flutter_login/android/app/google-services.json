@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564594422509",
+    "project_id": "login-weather-ailsa",
+    "storage_bucket": "login-weather-ailsa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564594422509:android:53ac6f2d102e51cf2e52e4",
+        "android_client_info": {
+          "package_name": "com.example.flutter_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALsTDf1sz3MOGbOJve1NpS_AGsk71lNd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
