@@ -37,6 +37,7 @@ Hasil Analysis<br>
 
 3. Pembuatan Email dan Password untuk Login (Firebase Authentication)<br>
     -> Setelah Aktivasi email/password berhasil dibuat dan fitur Authentication diaktifkan, langkah berikutnya adalah membuat akun pengguna yang akan digunakan untuk login ke aplikasi.<br>
+    ![auth](images/authentication.png)
 
 4. Halaman Login 
     -> Halaman login bertujuan untuk:<br>
